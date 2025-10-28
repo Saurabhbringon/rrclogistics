@@ -181,7 +181,7 @@ class MileageRateController extends Controller
             }
 
             $validator = Validator::make($request->all(), [
-                'vehicle_series' => 'sometimes|required|integer|min:1|max:7',
+                'vehicle_series' => 'sometimes|required|integer',
                 'load_from' => 'sometimes|required|numeric|min:0',
                 'load_to' => 'nullable|numeric|gt:load_from',
                 'mileage_rate' => 'sometimes|required|numeric|min:0',
