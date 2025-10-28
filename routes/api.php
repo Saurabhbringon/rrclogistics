@@ -71,7 +71,3 @@ Route::post('/mileage-rates/get-rate', [MileageRateController::class, 'getRateFo
 Route::get('/mileage-rates/{id}', [MileageRateController::class, 'show']);
 Route::put('/mileage-rates/{id}', [MileageRateController::class, 'update']);
 Route::delete('/mileage-rates/{id}', [MileageRateController::class, 'destroy']);
-
-// add new here 
-
-// gjhfjfh
